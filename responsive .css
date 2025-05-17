@@ -1,0 +1,97 @@
+/* pc */
+@media (min-width: 992px) {
+}
+
+/* tablet mobile */
+@media (max-width: 991.98px) {
+  .header-top {
+    position: relative;
+  }
+  nav {
+    display: none;
+  }
+  .header__logo {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+
+  .header-bottom {
+    flex-direction: column;
+  }
+
+  .header-bottom__left {
+    order: 2;
+    margin: 0 auto;
+  }
+
+  .header-bottom__right {
+    order: 1;
+    margin: 0 auto;
+  }
+
+  .hero {
+    margin-top: 150px;
+  }
+}
+
+/* tablet */
+@media (min-width: 768px) and (max-width: 991.98px) {
+  .container {
+    width: 100%;
+    padding: 0 16px;
+  }
+  .header__logo {
+    width: 200px;
+  }
+  .header-bottom__right {
+    width: 85%;
+  }
+  .header-bottom__left {
+    width: 85%;
+  }
+  .header-bottom__left .reading {
+    font-size: 2.5rem;
+  }
+  .header-bottom__left .reading-big {
+    font-size: 6.9rem;
+  }
+  .header-bottom__left .desc {
+    width: 90%;
+    font-size: 2.5rem;
+  }
+}
+
+/* mobile */
+@media (max-width: 767.98px) {
+  body {
+    border: solid 2px black;
+  }
+  .container {
+    width: 100%;
+  }
+  .header__btn {
+    display: none;
+  }
+  .header__logo {
+    transform: translateX(55%);
+  }
+  .header-bottom__right {
+    width: 80%;
+    height: 300px;
+    margin-left: 70px;
+  }
+  .items-Courses {
+    top: 85px;
+    left: -68px;
+  }
+  .items-schedules {
+    display: none;
+  }
+  main,
+  footer {
+    display: none;
+  }
+}
+
+/* tam an phan khong lien quan */

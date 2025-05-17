@@ -76,7 +76,7 @@ img {
   justify-content: space-between;
 }
 .header-bottom__left {
-  width: 41%;
+  width: 39%;
 }
 .header-bottom__left .reading {
   color: #767e7e;
@@ -86,7 +86,6 @@ img {
 }
 
 .header-bottom__left .reading-big {
-  width: 458px;
   color: #0d1111;
   font-size: 6.2rem;
   font-weight: 700;
@@ -134,12 +133,14 @@ img {
 }
 
 .header-bottom__right {
+  width: 49%;
+  height: 631px;
   position: relative; /* Phần tử cha cần có position: relative */
 }
 
 .header-bottom__right .imgae {
-  width: 576px;
-  height: 631px;
+  width: 100%;
+  height: 100%;
 }
 
 .items-Courses {
